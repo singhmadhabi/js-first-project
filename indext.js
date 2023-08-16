@@ -143,3 +143,34 @@ switch (operator) {
 
 console.log(`${Number1} ${operator} ${Number2} = ${result}`);
 */
+
+// Loops
+// For Loop
+/*
+let i;
+for (i = 0; i < 10; i++) {
+  console.log("the value of i is", i);
+}
+*/
+
+// while loop
+/*
+let i = 0;
+
+while (i < 10) {
+  if (i <= 10) {
+    console.log(i);
+  }
+  i++;
+}
+*/
+
+//D0...while
+let i = 0;
+
+do {
+  if (i <= 10) {
+    console.log(i);
+  }
+  i++;
+} while (i < 10);
