@@ -43,6 +43,7 @@ const answer = a === 0 ? console.log("it's 0") : console.log("it's not 0");
 
 */
 
+/*
 let day = Number(prompt("Enter a number"));
 console.log({day})
 
@@ -71,3 +72,74 @@ switch(day) {
     default:
         console.log("Invalid day");
 }
+*/
+/*
+const Number1 = Number(prompt("Enter a first number"));
+const Number2 = Number(prompt("Enter a second number"));
+const operator = prompt("Enter a operator");
+let result;
+
+switch (operator) {
+  case "+": {
+    result = Number1 + Number2;
+    break;
+  }
+  case "-": {
+    result = Number1 - Number2;
+    break;
+  }
+  case "*": {
+    result = Number1 * Number2;
+    break;
+  }
+  case "/": {
+    if (Number2 !== 0) {
+      result = Number1 / Number2;
+    } else {
+      console.log("Error: Division by zero.");
+      return;
+    }
+    break;
+  }
+  case "%": {
+    result = Number1 % Number2;
+    break;
+  }
+  default:
+    console.log("Invalid operator");
+}
+console.log(Number1, Number2, result);
+*/
+/*
+const Number1 = Number(prompt("Enter a first number"));
+const Number2 = Number(prompt("Enter a second number"));
+const operator = prompt("Enter an operator");
+let result;
+
+switch (operator) {
+  case "+":
+    result = Number1 + Number2;
+    break;
+  case "-":
+    result = Number1 - Number2;
+    break;
+  case "*":
+    result = Number1 * Number2;
+    break;
+  case "/":
+    if (Number2 !== 0) {
+      result = Number1 / Number2;
+    } else {
+      console.log("Error: Division by zero.");
+      return;
+    }
+    break;
+  case "%":
+    result = Number1 % Number2;
+    break;
+  default:
+    console.log("Invalid operator");
+}
+
+console.log(`${Number1} ${operator} ${Number2} = ${result}`);
+*/
