@@ -166,6 +166,7 @@ while (i < 10) {
 */
 
 //D0...while
+/*
 let i = 0;
 
 do {
@@ -174,3 +175,15 @@ do {
   }
   i++;
 } while (i < 10);
+*/
+
+//switch case
+for (let i = 0; i < 10; i++) {
+  switch (true) {
+    case i <= 10:
+      console.log(i);
+      break;
+    default:
+      break;
+  }
+}
